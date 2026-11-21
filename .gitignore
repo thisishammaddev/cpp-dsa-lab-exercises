@@ -1,0 +1,34 @@
+# Compiled C/C++ outputs
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.dll
+*.so
+*.dylib
+*.pdb
+*.ilk
+*.ou
+*.pdf
+
+# Build and editor output
+build/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+.vscode/
+.idea/
+*.code-workspace
+tempCodeRunnerFile.*
+~$*.docx
+
+# Generated game/account/record data
+Cross-word-puzzle/users.txt
+Cross-word-puzzle/leaderboard.txt
+Cross-word-puzzle/userAnswer
+UniversityLabTasks/PacmanGame/*_record.txt
+UniversityLabTasks/PacmanGame/player_records.txt
+UniversityLabTasks/PacmanGame/*.dat
+reservations.txt
+studntRecord.txt
